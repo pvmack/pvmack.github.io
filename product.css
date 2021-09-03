@@ -35,6 +35,26 @@
   transform: rotate(30deg);
 }
 
+/* unvisited link */
+a:link {
+  color: #cc2b62;
+  }
+
+/* visited link */
+a:visited {
+  color: rgb(0, 0, 0);
+  }
+
+/* mouse over link */
+a:hover {
+  color: rgb(131, 0, 65);
+}
+
+/* selected link */
+a:active {
+  color: #f2fd4c;
+}
+
 .product-device::before {
   position: absolute;
   top: 10%;
